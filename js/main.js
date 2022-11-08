@@ -2,16 +2,16 @@ const { createApp } = Vue
 const { createRouter, createWebHashHistory } = VueRouter
 
 
-import bookApp from '../views/book-app.cmp.js'
-import homePage from '../views/home-page.cmp.js'
-import aboutPage from '../views/about-page.cmp.js'
-import bookDetails from '../views/book-details.cmp.js'
-import bookEditCmp from '../views/book-edit.cmp.js'
+import bookApp from './views/book-app.cmp.js'
+import homePage from './views/home-page.cmp.js'
+import aboutPage from './views/about-page.cmp.js'
+import bookDetails from './views/book-details.cmp.js'
+import bookEditCmp from './views/book-edit.cmp.js'
 
-import appHeader from '../cmps/app-header.cmp.js'
-import appFooter from '../cmps/app-footer.cmp.js'
+import appHeader from './cmps/app-header.cmp.js'
+import appFooter from './cmps/app-footer.cmp.js'
 
-import userMsg from '../cmps/user-msg.cmp.js'
+import userMsg from './cmps/user-msg.cmp.js'
 
 const options = {
     template: `

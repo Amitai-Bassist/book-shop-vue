@@ -1,7 +1,7 @@
-import { utilService } from 'util.service.js'
-import { storageService } from 'async-storage.service.js'
+import { utilService } from '../services/util.service.js'
+import { storageService } from '../services/async-storage.service.js'
 
-import { booksFirst } from 'books-first.service.js'
+import { booksFirst } from '../services/books-first.service.js'
 
 
 const BOOKS_KEY = 'booksDB'

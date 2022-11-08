@@ -1,6 +1,6 @@
-import { booksService } from "services/books-service.js"
+import { booksService } from "../services/books-service.js"
 // import longText from '../cmps/long-text.cmp.js'
-import reviewAdd from 'cmps/review-add.cmp.js'
+import reviewAdd from '../cmps/review-add.cmp.js'
 
 export default {
     template: `

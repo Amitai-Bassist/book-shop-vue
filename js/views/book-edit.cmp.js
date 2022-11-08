@@ -1,5 +1,5 @@
-import { booksService } from "services/books-service.js"
-import { eventBus } from "services/event-bus.service.js"
+import { booksService } from "../services/books-service.js"
+import { eventBus } from "../services/event-bus.service.js"
 
 export default {
     template: `

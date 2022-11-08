@@ -1,8 +1,8 @@
-import {booksService} from 'services/books-service.js'
-import { eventBus } from 'services/event-bus.service.js'
+import {booksService} from '../services/books-service.js'
+import { eventBus } from '../services/event-bus.service.js'
 
-import bookFilter from 'cmps/book-filter.cmp.js'
-import bookList from 'cmps/book-list.cmp.js'
+import bookFilter from '../cmps/book-filter.cmp.js'
+import bookList from '../cmps/book-list.cmp.js'
 // import bookDetails from '../cmps/book-details.cmp.js'
 
 export default {
