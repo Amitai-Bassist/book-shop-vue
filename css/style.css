@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, body {
+    margin: 0;
+}
+
+body{
+    background-color: beige;
+}
+
+button{
+    cursor: pointer;
+}
+
+a{
+    color: aliceblue;
+    text-decoration-line: none;
+    background-color: black;
+}
+
+
+.app-footer, .app-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5vh;
+    background-color: rgb(42, 47, 42);
+    color: azure;
+    padding: 10px;
+}
+
+.app-header nav {
+    display: flex;
+    gap: 10px;
+}
+
+.router-link-exact-active {
+    color: rgb(192, 203, 209);
+}
+
+.book-app {
+    display: grid;
+    min-height: 90vh;
+    background-color: rgb(44, 94, 111);
+    color: rgb(192, 229, 229);
+    padding: 10px;
+}
+.book-list ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    
+    gap: 10px;
+    list-style-type: none;
+    background-color: rgb(40, 12, 107);
+    padding: 10px;
+}
+.book-list ul li {
+    display: grid;
+    background-color: rgb(45, 27, 240);
+    padding: 10px;
+    min-height: 170px;
+    cursor: pointer;
+    border-radius: 10%;
+    
+    
+}
+
+.book-list ul li:hover{
+
+}
+
+.book-list ul li img{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+/* .book-preview{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+} */
+
+.actions{
+    display: grid;
+    justify-items: center;
+}
+
+.actions .details{
+    background-color: rgb(40 12 107);
+    color:rgb(192, 229, 229) ;
+    border:none;
+    
+}
+.actions .details:hover{
+    background-color: rgb(90, 56, 168);
+}
+
+.actions .close{
+    display: grid;
+    justify-self: end;
+    text-align: center;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border: none;
+    border-radius: 10%;
+}
+
+.actions .close:hover{
+    background-color: rgb(207, 145, 145);
+}
+
+.more{
+    /* background-color: ; */
+}
+
+.book-details{
+    
+    /* position: fixed;
+    left: 25vw ; */
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: rgb(104, 143, 154);
+    padding: 10px;
+    margin-block-end: 10px;
+     
+    
+    background-color: rgb(32, 58, 251);
+    width: 60vw;
+    height: 50vw;
+    text-align: center;
+    padding-top: 5px;
+    font-size: larger;
+    font-weight: 400;
+    margin: auto;
+}
+
+.book-details li{
+    list-style: none;
+}
+.user-msg {
+    position: fixed;
+    top: 40px;
+    right: 20px;
+
+    width: 290px;
+    background-color: rgb(208, 206, 139);
+    padding: 10px;
+    border-radius: 5px;
+    /* transition: opacity 1s; */
+}
+.success {
+    background-color: rgb(88, 130, 88);
+}
+.fail {
+    background-color: rgb(187, 104, 104);
+}
